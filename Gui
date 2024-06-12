@@ -209,7 +209,7 @@ game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
     local trext1 = Instance.new("TextLabel")
     trext1.Size = UDim2.new(0, 0, 0, 50)
     trext1.Position = UDim2.new(0, 85, 0, -13)
-    trext1.Text = "[June 2nd.2024] KraSus Zet Release"
+    trext1.Text = "[June 16nd.2024] KraSus Zet Release"
     trext1.TextSize = 7
     trext1.ZIndex = 4
     trext1.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -395,9 +395,6 @@ game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 	closeButton.Parent = Gui2o
 
 	-- close Gui
-
-	    local menu = Instance.new("ScreenGui")
-	    menu.Parent = game.Players.LocalPlayer.PlayerGui
 
 		local frrame = Instance.new("Frame")
 		frrame.Size = UDim2.new(1, 0, 2, 0)
@@ -1140,7 +1137,7 @@ game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 	ui.BackgroundColor3 = Color3.fromRGB(25,25,25)
 	ui.BorderSizePixel = 0
 	ui.Font = Enum.Font.ArialBold
-	ui.Text = "🇷🇺Русский"
+	ui.Text = "Русский"
 	ui.TextColor3 = Color3.fromRGB(255, 255, 255)
 	ui.TextSize = 14
 	ui.Parent = frame4
@@ -1156,7 +1153,7 @@ game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 	uo.BackgroundColor3 = Color3.fromRGB(25,25,25)
 	uo.BorderSizePixel = 0
 	uo.Font = Enum.Font.ArialBold
-	uo.Text = "🇺🇸English"
+	uo.Text = "English"
 	uo.TextColor3 = Color3.fromRGB(255, 255, 255)
 	uo.TextSize = 14
 	uo.Parent = frame4
@@ -1170,7 +1167,7 @@ game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
     function change()
         if lan == "eng" then
             butto.Text = "List Of Updates"
-            trext1.Text = "[02.06.2024] KraSus Zet Release"
+            trext1.Text = "[June 16nd.2024] KraSus Zet Release"
             text51.Text = "Beta"
             text661.Text = "Do you want to close KraSus Zet without"
             text71.Text = "being able to open it again?"
@@ -1194,7 +1191,7 @@ game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
             executec.TextSize = 10.5
         elseif lan == "ru" then
             butto.Text = "Лист Обновлений"
-            trext1.Text = "[02.06.2024] KraSus Zet Вышел"
+            trext1.Text = "[02.16.2024] KraSus Zet Вышел"
             text51.Text = "Бета"
             text661.Text = "Вы хотите закрыть KraSus Zet, не"
             text71.Text = "имея возможности открыть его снова?"
