@@ -909,7 +909,7 @@ game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 	corner.Parent = but1
 
 	but1.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/kip1231/proverki/main/Protected_7494382346940781.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KrutoySuslik/KraSus-Zet/main/Fly%20Gui"))()
 	end)
 
 	local but1 = Instance.new("TextButton")
