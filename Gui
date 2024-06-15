@@ -36,17 +36,9 @@ if #files >= 1 then
     end
 end
 
-local player = game.Players.LocalPlayer
+wait(10)
 
-local function isInGameMode()
-    if player and player.Character then
-        local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
-        if humanoid then
-            return humanoid.Health > 0
-        end
-    end
-    return false
-end
+warn("Intro Loaded")
 
 -- intro
 
@@ -147,8 +139,9 @@ task.wait()
 ScreenGui.Enabled = false
 task.wait()
 
--- After checking, we create a Gui.
+print("Intro Loaded")
 
+warn("Gui Loaded")
 local function createMenu() -- All Gui
     local CoreGui = game:GetService("CoreGui")
 	local HttpService = game:GetService("HttpService")
@@ -1248,6 +1241,5 @@ game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 	end
 end
 
-if isInGameMode() then -- If in the game then.
-    createMenu() -- Script for creating a Gui
-end
+createMenu() -- Script for creating a Gui
+print("Gui Loaded")
